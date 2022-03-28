@@ -1,0 +1,54 @@
+main{
+    #shop_category{
+        .case{
+            .tittle{
+                margin: 20px 0px;
+                border-bottom: 1px solid $color1;    
+                // padding:10px 0px;
+                position: relative;
+                
+                ::before{
+                    display: block;
+                    background: $color1;
+                    width: 200px;
+                    height: 4px;
+                    position: absolute;
+                    left: 0;
+                    bottom: -2px;
+                    content:'';
+
+                    
+    
+                }
+                .t-ittle{
+                    margin: 7px 0px;
+                   
+
+
+                }
+            }
+            .row{
+                .item{
+                    padding: 10px;
+                    .wra_p{
+                        border:1px solid rgba(0,0,0,0.3);
+                        display: flex;
+                        justify-content: center;
+                        padding:5px  10px;
+                        height: 70px;
+                        .details{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                        }
+                        img{
+                            margin-left: auto;
+                            width: fit-content;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
