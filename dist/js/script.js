@@ -26,7 +26,7 @@ $(".home-banner .owl-carousel").owlCarousel({
     nav:false,
     dots:false,
     animateIn: 'flipInX',
-    autoplay:true,
+    autoplay:false,
      responsive:{
             0:{
                 items:1
@@ -49,7 +49,63 @@ $("#products .owl-carousel").owlCarousel({
     loop:true,
     nav:false,
     dots:true,
-    animateIn: 'flipInY',
+    animateIn: 'flipInX',
+    autoplay:true,
+     responsive:{
+            0:{
+                items:1
+            },
+            500:{
+                items:2
+            },
+            900:{
+                // items:3
+            },
+            1200:{
+                // items:4
+            },
+           
+          
+        }
+
+})
+
+//  mobile  product Owl carousel 
+$("#mobiles .owl-carousel").owlCarousel({
+    loop:true,
+    nav:false,
+    dots:true,
+    animateIn: 'flipInX',
+    autoplay:true,
+     responsive:{
+            0:{
+                items:1
+            },
+            500:{
+                items:2
+            },
+            900:{
+                items:3
+            },
+            1200:{
+                items:4
+            },
+            1200:{
+                items:5
+            }
+           
+          
+        }
+
+})
+
+
+//  hot selling  product Owl carousel 
+$("#hot-selling .owl-carousel").owlCarousel({
+    loop:true,
+    nav:false,
+    dots:true,
+    animateIn: 'flipInX',
     autoplay:false,
      responsive:{
             0:{
@@ -65,17 +121,18 @@ $("#products .owl-carousel").owlCarousel({
                 items:4
             },
            
+           
           
         }
 
 })
 
-//  PC  product OSwl carousel 
-$(".it-ems .owl-carousel").owlCarousel({
+//  computer and laps  owlCarousel
+$("#comps .owl-carousel").owlCarousel({
     loop:true,
     nav:false,
     dots:true,
-    animateIn: 'flipInY',
+    animateIn: 'flipInX',
     autoplay:false,
      responsive:{
             0:{
@@ -99,8 +156,35 @@ $(".it-ems .owl-carousel").owlCarousel({
 
 })
 
+//  blog  owlCarousel
+$(".blog .owl-carousel").owlCarousel({
+    loop:true,
+    nav:false,
+    dots:true,
+    animateIn: 'flipInX',
+    autoplay:false,
+     responsive:{
+            0:{
+                items:1
+            },
+            500:{
+                items:2
+            },
+            900:{
+                items:3
+            },
+            1200:{
+                items:4
+            },
+          
+           
+          
+        }
+
+})
+
 // isotope filter
-    var $grid = $(".wrap-p").isotope({
+    var $grid = $(".contai-ner").isotope({
         itemSelector:'.product',
        layoutMode:'fitRows'
     })

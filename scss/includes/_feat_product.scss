@@ -170,6 +170,98 @@ main{
                         }
                     }
                 }
+                 .it-ems{
+            // width: 75%;
+            // background: green;
+              .wrap-p{
+                    padding: 10px;
+                    position: relative !important;
+                    height: fit-content !important;
+                    .item{
+                        padding: 0px 5px;
+                        display: flex;
+                        flex-direction: column;
+                        position: static !important;
+                       
+                        // width: 250px;
+                        margin-bottom: 20px;
+                        .outer{
+                           background: rgb(255, 255,255);
+                            display: flex;
+                            flex-direction: column;
+                            padding: 10px;
+                             box-shadow: 5px 5px 5px rgba(150, 150, 150, 0.06);
+                            .top{
+                                display: flex;
+                                flex-direction: column;
+                                max-width:70%;
+                                .pname{
+                                    font-size: 15px;
+                                    font-weight: 500;
+                                    color:black;
+                                    line-height: normal;
+                                }
+                                .ratings{
+                                    display: flex;
+                                    flex-direction: row;
+                                    color: yellow;
+                                    font-size: 14px;
+                                    margin: 7px 0px;
+                                }
+                            }
+                            
+                            .img{
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                img{
+
+                                    width: 200px;
+                                }
+                            }
+                            .price{
+                                margin-bottom: 20px;
+                                display: flex;
+                                flex-direction: row;
+                                font: 18px;
+                                .old{
+                                    margin-right: 20px;
+                                    color: rgba(0,0,0,0.5);
+                                    font-weight: 500;
+                                    position: relative;
+                                   
+                                }
+                                .new{
+                                    font-weight: 500;
+                                    color:$color1;
+                                }
+                            }
+                            .cal2ac{
+                               
+                                width: 100%;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-evenly;
+                                .bt{
+                                   
+                                    color: black;
+                                    font-weight: 500;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                .cart-bt{
+                                    
+                                }
+                                .c-bt{
+                                }
+                            }
+
+                        }
+                    }
+                }
+        }
             }
         }
     }
