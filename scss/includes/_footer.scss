@@ -1,0 +1,148 @@
+footer{
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    .case{
+        .row{
+            .item{
+                @media (max-width:999px) {
+                   margin-bottom: 30px;
+                    
+                }
+                .enc{
+                    .hd{
+                        margin-bottom: 20px;
+                        .hh{
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+                    }
+                    .lnk{
+                        display: flex;
+                        flex-direction: column;
+                        a{
+                            color: #666666;
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                            transition: all ease-in-out .3s;
+                            &:hover{
+                                transform: translateX(3px);
+                                color: $color1;
+                            }
+
+                        }
+                    }
+                }
+            }
+            .i-tem{
+                // background: #666666;
+                display: flex;
+               .enc{
+                //    margin-left: auto;
+                   .hd{
+                       margin-bottom: 20px;
+                        .hh{
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+                   }
+                   .lnk{
+                       .ph{
+                            font-size: 18px;
+                            color: black;
+                            display: block;
+                            margin-bottom: 10px;
+
+                       }
+                       .lk{
+                           font-size: 15px;
+                           color: #666666;
+                           margin-bottom: 10px;
+                           display: block;
+                           font-size:13px;
+                       }
+                       .em{
+                           font-size: 16px;
+                           color:black;
+                           margin-bottom: 10px;
+                           display: block;
+                       }
+                       .adr{
+                        font-size: 15px;
+                           color: #666666;
+                           display: block;
+                           
+                       }
+
+                   }
+               } 
+            }
+
+        }
+        .row.r2{
+            padding:35px 0px;
+            margin: 30px 0px;
+            @media (min-width:999px) {
+                border-bottom: 1px solid #ccc;
+                border-top: 1px solid #ccc;
+                
+            }
+            .item{
+                @media (max-width:999px) {
+                   margin-bottom: 30px;
+                    
+                }
+                .rp{
+                    display: flex;
+                    align-items: center;
+                    // justify-content: center;
+                    .fa{
+                        color: black;
+                        font-size: 35px;
+                        margin-right: 20px;
+                        width:50px;
+
+
+                    }
+                    .rb{
+                        display: flex;
+                        flex-direction: column;
+                        h4{
+                            font-size: 15px;
+                            font-weight: 700;
+                            margin-bottom: 5px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color:#666666;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+        .ro-w{
+            display: flex;
+            margin-top: 30px;
+              @media (max-width:600px) {
+                flex-direction: column;
+                .left{
+
+                    margin-bottom: 15px;
+                }
+
+                  
+            }
+           
+            .lft{
+            }
+            .rgt{
+                @media (min-width:600px) {
+                     margin-left: auto;
+               
+            }
+
+            }
+        }
+    }
+}

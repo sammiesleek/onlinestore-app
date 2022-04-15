@@ -1,27 +1,31 @@
 main{
     #shop_category{
+        // display: none;
+        margin-top: 50px;
+        padding-top: 20px;
         .case{
             .tittle{
                 margin: 20px 0px;
-                border-bottom: 1px solid $color1;    
                 // padding:10px 0px;
                 position: relative;
                 
-                ::before{
-                    display: block;
-                    background: $color1;
-                    width: 200px;
-                    height: 4px;
-                    position: absolute;
-                    left: 0;
-                    bottom: -2px;
-                    content:'';
+                // ::before{
+                //     display: block;
+                //     background: $color1;
+                //     width: 200px;
+                //     height: 4px;
+                //     position: absolute;
+                //     left: 0;
+                //     bottom: -2px;
+                //     content:'';
 
                     
     
-                }
+                // }
                 .t-ittle{
                     margin: 7px 0px;
+                    font-weight: 700;
+                    font-size: 20px;
                    
 
 
@@ -40,6 +44,14 @@ main{
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
+                            .th{
+                                font-weight: 700;
+                                font-size: 16px;
+
+                            }
+                            .det{
+                                font-size: 14px;
+                            }
                         }
                         img{
                             margin-left: auto;

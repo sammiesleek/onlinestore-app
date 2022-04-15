@@ -1,19 +1,24 @@
 main{
-    margin-bottom: 200px;
-    margin-top: 30px;
+    margin-top: 100px;
     // display: none;
     #banner-area{
-            .case{
-                .row{
-                    .home-banner{
-
-                        .wrapp{
+        .case{
+            .row{
+                .home-banner{
+                    background: rebeccapurple;
+                    
+                    .wrapp{
+                        width: 100%;
+                        .item{
                             width: 100%;
-                            .item{
-                                .outer{
+                            .outer{
+                                width: 100%;
+                                   
                                     position: relative;
+                                    display: flex;
+
                                     img{
-                                        // width: 100%;
+                                        width: 100%;
                                     }
                                     
                                     
@@ -127,7 +132,7 @@ main{
                     .bann_er{
                             padding: 0px !important;
                             height: 100%;
-                            // width: fit-content;
+                          
                             @media  (max-width:470px) {
                                 .bo-x{
                                     flex-direction: column;
@@ -143,15 +148,14 @@ main{
                                 .bo-x{
                                     flex-direction: column;
                                     
-                                        // margin: 30px 0px;
                                     .bn:first-child{
-                                        margin-bottom: 30px;
+                                        
                                     }
                                     
                                 }
                             }
                             .bo-x{
-                            padding:0px 12px;
+                            // padding:0px 12px;
                             
                             display: flex;
                             // flex-direction: column;
@@ -159,7 +163,7 @@ main{
                             .bn{
                                 background: green;
                                 img{
-                                    width: 100%;
+                                    width: 90%;
                                 }
                                
                             }

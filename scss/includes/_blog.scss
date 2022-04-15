@@ -1,18 +1,20 @@
 .blog{
-    background: gray;
+    margin: 30px 0px;
+    padding: 20px 0px;
     
     .case{
-        .left{
+        // min-height: 400px;
             .tittle{
-                .t-tittle{
+                .t-ittle{
+                    font-weight: 700;
+                    font-size: 20px;
 
                 }
             }
-        }
-        .wrap-p{
+        .w-rapp{
             margin:20px 0px;
             .item{
-                padding: 0px 10px;
+                padding: 0px 15px;
                 .outer{
                     .img{
                         img{
@@ -22,26 +24,30 @@
                     .in{
                         .details{
                             margin: 5px 0px;
+                            font-size: 14px;
+
 
                         }
                         .topic{
                             display: block;
                             margin-bottom: 5px;
                             color: black;
-                            font-weight: 500;
-                            font-size: 20px;
+                            font-weight:600;
+                            font-size: 16px;
                         }
                         .c-bt{
                             color: $color1;
                             // display: block;
+                            font-size: 12px;
+                            font-weight: 600;
                              &:hover{
                                 i{
-                                    transition: all ease .3s    ;
+                                    transition: all ease .2s    ;
                                     transform: translateX(5px);
                                 }
                             }
                             .fa{
-                                margin-left: 20px;
+                                margin-left: 6px;
                             }
                            
                         }
@@ -52,25 +58,3 @@
     }
 }
 
-#newsletter{
-    .case{
-        .row{
-            background: green;   
-            .item{
-                // padding:0px 20px ;
-                background: red;
-                align-items: center;
-                justify-content: center;
-                display: flex;
-                .inner{
-                    background: yellow;
-                    width: 100%;
-                }
-                .i1{
-
-                }
-            }
-
-        }
-    }
-}

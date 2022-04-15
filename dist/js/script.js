@@ -26,7 +26,7 @@ $(".home-banner .owl-carousel").owlCarousel({
     nav:false,
     dots:false,
     animateIn: 'flipInX',
-    autoplay:false,
+    autoplay:true,
      responsive:{
             0:{
                 items:1
@@ -45,8 +45,8 @@ $(".home-banner .owl-carousel").owlCarousel({
 
 })
 //  featured product owl carousel 
-$("#products .owl-carousel").owlCarousel({
-    loop:true,
+$(".Oproducts .owl-carousel").owlCarousel({
+    loop:false,
     nav:false,
     dots:true,
     animateIn: 'flipInX',
@@ -69,9 +69,37 @@ $("#products .owl-carousel").owlCarousel({
         }
 
 })
+//  special offer  owl carousel 
+$(".Osp.owl-carousel").owlCarousel({
+    loop:true,
+    nav:false,
+    dots:true,
+    animateIn:'flipInX',
+    autoplay:true,
+     responsive:{
+            0:{
+                items:1
+            },
+            500:{
+                items:2
+            },
+            700:{
+                items:2
+            },
+            900:{
+                items:2
+            },
+            1200:{
+                items:2
+            },
+           
+          
+        }
+
+})
 
 //  mobile  product Owl carousel 
-$("#mobiles .owl-carousel").owlCarousel({
+$(".Omobiles .owl-carousel").owlCarousel({
     loop:true,
     nav:false,
     dots:true,
@@ -89,19 +117,14 @@ $("#mobiles .owl-carousel").owlCarousel({
             },
             1200:{
                 items:4
-            },
-            1200:{
-                items:5
-            }
-           
-          
+            }          
         }
 
 })
 
 
 //  hot selling  product Owl carousel 
-$("#hot-selling .owl-carousel").owlCarousel({
+$(".hots.owl-carousel").owlCarousel({
     loop:true,
     nav:false,
     dots:true,
@@ -128,7 +151,7 @@ $("#hot-selling .owl-carousel").owlCarousel({
 })
 
 //  computer and laps  owlCarousel
-$("#comps .owl-carousel").owlCarousel({
+$(".Ocomps .owl-carousel").owlCarousel({
     loop:true,
     nav:false,
     dots:true,
@@ -146,11 +169,7 @@ $("#comps .owl-carousel").owlCarousel({
             },
             1200:{
                 items:4
-            },
-            1200:{
-                items:5
-            }
-           
+            }          
           
         }
 
@@ -159,10 +178,10 @@ $("#comps .owl-carousel").owlCarousel({
 //  blog  owlCarousel
 $(".blog .owl-carousel").owlCarousel({
     loop:true,
-    nav:false,
+    nav:true,
     dots:true,
     animateIn: 'flipInX',
-    autoplay:false,
+    autoplay:true,
      responsive:{
             0:{
                 items:1

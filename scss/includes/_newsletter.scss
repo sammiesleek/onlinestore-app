@@ -1,0 +1,136 @@
+#newsletter{
+    background: #222222;
+    padding: 30px 0px;
+    .case{
+        .row{
+            // background: green;   
+            @media (max-width:992px) {
+                grid-row-gap: 30px;
+                align-items: center;
+                justify-content: center;
+            }
+            .item{
+                // padding:0px 20px ;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                .inner{
+                    width: 100%;
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                    span{
+                    
+                        .fa-regular{
+                            color: white;
+                            font-weight: 100;
+                            font-size: 40px;
+                            display: none;
+                        }
+                    }
+                    .sk{
+                        // margin-left: 40px;
+                        color:white;
+                        font-weight: 700;
+                        font-size: 25px;
+                        span{
+                            display: block;
+                            font-weight: 500;
+                            font-size: 13px;
+                            color:$color3;
+                        }
+
+                    }
+                    
+                }
+                .i1{
+
+                }
+            }
+            .item2{
+                // background:#ccc;
+                display: flex;
+                align-items: center;
+                // justify-content: center;
+                // .i2{
+                    // display: flex;
+                    // width: 100%;
+                    // height: 100%;
+                    form{
+                        // background: green;
+                        width: 100%;
+                        display: flex;
+                        
+                        .txt{
+                            padding: 13px 15px;
+                            outline: none;
+                            border: none;
+                            background: transparent;
+                            display: flex;
+                            width: 100%;
+                            margin-right: 20px;
+                            background: white;
+                            border-radius: 5px;
+                            
+                            
+                        }
+                        .bt{
+                             padding: 13px 18px;
+                             font-weight: 600;
+                            border-radius: 5px;
+                             background: $color1;
+                             color:white;
+                             margin-left: auto;
+                             border: none;
+                             transition: all ease .3s;
+                             &:hover{
+                                 background: black;
+                             }
+                        }
+
+                    }
+                // }
+            }
+            .item3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .i3{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0px 10px;
+
+                    p{
+                        color: white;
+                        margin-right: 20px;
+                        font-size: 14px;
+
+                    }
+                    span{
+                        display: flex;
+                        a{
+                            width: 38px;
+                            height: 38px;
+                            border-radius: 50%;
+                            border: 2px solid rgba($color2,0.2);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: $color2;
+                            margin-right: 5px;
+                            transition: all ease .3s;
+                            &:hover{
+                                color:$color1;
+                                border: none;
+
+                            }
+                        }
+                    }
+
+                }
+            }
+
+        }
+    }
+}

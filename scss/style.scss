@@ -1,4 +1,5 @@
 @import "./includes/color";
+@import "./includes/font";
 @import "./includes/header";
 @import "./includes/home-banner";
 @import "./includes/categories";
@@ -6,6 +7,9 @@
 @import "./includes/feat_product";
 @import "./includes/mcategory";
 @import "./includes/blog";
+@import "./includes/about";
+@import "./includes/newsletter";
+@import "./includes/footer";
 
 a{
     text-decoration: none;
@@ -19,67 +23,78 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 body{
+    font-family: 'Lato', sans-serif;
     max-width: 100vw;
     overflow-x: hidden;
+    background: rgb(241,243,248);
 }
 
 .case{
    
-    margin: auto;
+    // margin: auto;
+    padding:0px 20px;
 }
 
-@media screen and (max-width:576px) {
-    .case{
-        width:95%;
-        padding: 0px 20px;
+// @media screen and (max-width:576px) {
+//     .case{
+//         // width:95%;
+//         padding: 0px 20px;
         
-    }
-}
-@media screen and (min-width:576px) {
-    .case{
-        width:566px;
+//     }
+// }
+// @media screen and (min-width:576px) {
+//     .case{
+//         // width:566px;
+//          padding: 0px 20px;
 
-    }
-}
-@media screen and (min-width:768px) {
-    .case{
-        width:758px;
+//     }
+// }
+// @media screen and (min-width:768px) {
+//     .case{
+//         // width:758px;
+//          padding: 0px 20px;
 
-    }
-}
-@media screen and (min-width:992px) {
-    .case{
-        width:975px;
+//     }
+// }
+// @media screen and (min-width:992px) {
+//     .case{
+//         // width:975px;
+//          padding: 0px 20px;
 
-    }
-}
-@media screen and (min-width:1200px) {
-    .case{
-        width:1180px;
+//     }
+// }
+// @media screen and (min-width:1200px) {
+//     .case{
+//         // width:1180px;
+//          padding: 0px 20px;
 
-    }
-}
-@media screen and (min-width:1400px) {
-    .case{
-        width:1380px;
+//     }
+// }
+// @media screen and (min-width:1400px) {
+//     .case{
+//         // width:1380px;
+//          padding: 0px 20px;
 
-    }
-}
-@media screen and (min-width:1600px) {
-    .case{
-        width:1580px;
+//     }
+// }
+// @media screen and (min-width:1600px) {
+//     .case{
+//         // width:1580px;
+//          padding: 0px 40px;
 
-    }
-}
-@media screen and (min-width:1800px) {
-    .case{
-        width:1780px;
+//     }
+// }
+// @media screen and (min-width:1800px) {
+//     .case{
+//         // width:1780px;
+//          padding: 0px 40px;
 
-    }
-}
-@media screen and (min-width:2000px) {
-    .case{
-        width:1980px;
+//     }
+// }
+// @media screen and (min-width:2000px) {
+//     .case{
+//         // width:1980px;
+//          padding: 0px 40px;
 
-    }
-}
+//     }
+// }
